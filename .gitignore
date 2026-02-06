@@ -1,0 +1,25 @@
+# Dipendenze
+node_modules/
+dist/
+
+# Database locale e file temporanei
+*.db
+*.db-journal
+*.sqlite
+
+# Variabili d'ambiente (dati sensibili)
+.env
+
+# Log del sistema
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# File di sistema OS
+.DS_Store
+Thumbs.db
+
+# File temporanei degli editor di testo
+.vscode/
+.idea/
+*.swp

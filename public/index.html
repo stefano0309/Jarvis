@@ -1,0 +1,42 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarvis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="headerText"><div id="icon">🧠</div> Jarvis</div>
+        <div id="option">
+            <button onclick="saveChat()">💾</button>
+            <button onclick="hideSection()">📜</button>
+            <button>🛠️</button>
+        </div>
+    </header>
+    <div id="main">
+        <nav id="historyContainer">
+                <div id="settingMenu">
+                    <div>🛠️ History</div>
+                    <button>➕</button>
+                </div>
+            <div id="searchBar">
+                    <input type="text" name="reserch" placeholder="Ricerca... 🔍">
+                </div>
+            <div id="container"></div>
+        </nav>
+        <div id="jarvis">
+            <div id="chat"></div>
+            <div id="message">
+                <input type="text" id="prompt" placeholder="Scrivi un messaggio...">
+                <button id="invia" onclick="Message()">Invia</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
